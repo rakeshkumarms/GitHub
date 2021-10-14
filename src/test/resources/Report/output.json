@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-07T16:14:58.832Z",
+        "line": 13,
+        "name": "Validate the Login Functionality",
+        "description": "",
+        "id": "validation-of-login-page-of-facebook;validate-the-login-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2754000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the browser",
+            "match": {
+              "location": "StepDef.Login.launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1134000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open the facebook application",
+            "match": {
+              "location": "StepDef.Login.open_the_facebook_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 189000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter the \"rocky\" and \"r12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"rocky\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"r12345\"",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDef.Login.enter_the_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click the login button",
+            "match": {
+              "location": "StepDef.Login.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate the login message",
+            "match": {
+              "location": "StepDef.Login.validate_the_login_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 781000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the browser",
+            "match": {
+              "location": "StepDef.Login.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Validation of Login Page of Facebook",
+    "description": "",
+    "id": "validation-of-login-page-of-facebook",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Login.feature",
+    "tags": []
+  }
+]
